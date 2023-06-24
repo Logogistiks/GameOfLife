@@ -110,6 +110,5 @@ def main():
         sleep(dt)
         game.update()
 
-
 if __name__ == "__main__":
     main()
