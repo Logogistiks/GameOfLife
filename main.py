@@ -96,7 +96,10 @@ class GameOfLife:
 
 def main():
     dt = 0.3
-    board = glider()
+
+#################################
+    board = glider() # <=== Edit this. List of patterns in readme.
+#################################
 
     game = GameOfLife(len(board), mapdefault=board, neigborhoodType="moore")
     game.display()
