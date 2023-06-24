@@ -25,7 +25,9 @@ I implemented a few well-known initial patterns which are stored in the initials
 Type: _Oscillator_ \
 Period: _2_
 
-<code>board = blinker()</code>
+```py
+board = blinker()
+```
 
 ![blinker](/media/blinker.gif)
 
@@ -40,7 +42,9 @@ Period: _2_
 Type: _Oscillator_ \
 Period: _2_
 
-<code>board = toad()</code>
+```py
+board = toad()
+```
 
 ![blinker](/media/toad.gif)
 
@@ -55,7 +59,9 @@ Period: _2_
 Type: _Oscillator_ \
 Period: _2_
 
-<code>board = beacon()</code>
+```py
+board = beacon()
+```
 
 ![blinker](/media/beacon.gif)
 
@@ -69,8 +75,9 @@ Period: _2_
 
 Type: _Oscillator_ \
 Period: _3_
-
-<code>board = pulsar()</code>
+```py
+board = pulsar()
+```
 
 ![blinker](/media/pulsar.gif)
 
@@ -85,7 +92,9 @@ Period: _3_
 Type: _Oscillator_ \
 Period: _15_
 
-<code>board = pentadecathlon()</code>
+```py
+board = pentadecathlon()
+```
 
 ![blinker](/media/penta.gif)
 
@@ -99,7 +108,9 @@ Period: _15_
 
 Type: _Spaceship_
 
-<code>board = glider()</code>
+```py
+board = glider()
+```
 
 ![blinker](/media/glider.gif)
 
@@ -113,7 +124,9 @@ Type: _Spaceship_
 
 Type: _Spaceship_
 
-<code>board = LWSS()</code>
+```py
+board = LWSS()
+```
 
 ![blinker](/media/lwss.gif)
 
@@ -127,7 +140,9 @@ Type: _Spaceship_
 
 Type: _Spaceship_
 
-<code>board = MWSS()</code>
+```py
+board = MWSS()
+```
 
 ![blinker](/media/mwss.gif)
 
@@ -141,7 +156,9 @@ Type: _Spaceship_
 
 Type: _Spaceship_
 
-<code>board = HWSS()</code>
+```py
+board = HWSS()
+```
 
 ![blinker](/media/hwss.gif)
 
@@ -154,7 +171,8 @@ Type: _Spaceship_
 ### 10. Custom
 
 To make your own initial pattern just edit the custom function at the bottom of the <code>initials.py</code> file
-
-<code>board = custom()</code>
+```py
+board = custom()
+```
 
 ![custom](/media/custom.png)
