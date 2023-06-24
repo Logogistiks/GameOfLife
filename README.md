@@ -1,10 +1,21 @@
 # Conway's Game of Life
 
 This is my python implementation of CGOL. The Gameboard can be any size as long as it's square. You can load different initial configurations by editing the board variable in the main function.
+
 ![Edit this variable](/media/edit.png)
 
 <br>
+
+⚠️ After starting the program, press Enter to start ⚠️
+
 <br>
+<br>
+
+## Requirements
+You will need to download these libraries:
+
+<code>colorama</code>
+<code>keyboard</code>
 
 ## Patterns
 I implemented a few well-known initial patterns which are stored in the initials.py file. By the time of writing this, the following patterns are added:
