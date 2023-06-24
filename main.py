@@ -3,6 +3,7 @@ from time import sleep
 from copy import deepcopy
 from initials import *
 from colorama import Fore
+from keyboard import wait
 
 def countNested2d(lst: list[list], target):
     return sum([l.count(target) for l in lst])
@@ -97,8 +98,10 @@ def main():
     dt = 0.3
     board = glider()
 
-    game = GameOfLife(len(board), mapdefault=board, neigborhoodType="neumann")
+    game = GameOfLife(len(board), mapdefault=board, neigborhoodType="moore")
+    game.display()
 
+    wait("enter")
     while True:
         game.display()
         sleep(dt)
